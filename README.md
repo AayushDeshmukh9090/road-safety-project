@@ -12,8 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
 **[🌐 Live Demo](https://aayush814-road-safety-project.hf.space)** &nbsp;|&nbsp;
-**[📚 API Docs](https://aayush814-road-safety-project.hf.space/docs)** &nbsp;|&nbsp;
-
+**[📚 API Docs](https://aayush814-road-safety-project.hf.space/docs)** &nbsp;
 </div>
 
 ---
