@@ -13,7 +13,6 @@
 
 **[🌐 Live Demo](https://aayush814-road-safety-project.hf.space)** &nbsp;|&nbsp;
 **[📚 API Docs](https://aayush814-road-safety-project.hf.space/docs)** &nbsp;|&nbsp;
-**[🗺️ Authority Dashboard](https://aayush814-road-safety-project.hf.space/authority)**
 
 </div>
 
