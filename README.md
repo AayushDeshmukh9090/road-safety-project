@@ -24,17 +24,19 @@ Road damage reporting in India is broken. Citizens photograph potholes, send the
 This system automates the entire lifecycle:
 
 ```
-Citizen photographs a pothole
+Citizen photographs road damage and submits with GPS location
         ↓
-AI validates the image, extracts GPS, detects damage type
+Module 0 validates GPS authenticity and computes a location trust score
         ↓
-Duplicate check prevents the same complaint being filed twice
+Module 1 runs YOLOv8 to detect damage type, severity, and instance count
         ↓
-Smart Router assigns the right government authority, priority, and deadline
+Module 2 checks for duplicates using image hashing and GPS proximity
         ↓
-Authority views complaints on a geospatial heatmap dashboard
+Module 3 assigns priority, routes to the correct government authority, and sets an SLA deadline
         ↓
-Authority uploads a repair photo → AI verifies the repair happened
+Module 5 surfaces all complaints on a live geospatial heatmap for authorities
+        ↓
+Authority uploads a repair photo → Module 4 verifies the fix using computer vision
         ↓
 Complaint closes. Citizen sees status updated in real time.
 ```
